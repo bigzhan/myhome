@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row wrap;
+        }
+        .box p{
+            width:10%;
+            height:200px;
+            background-color: lightgreen;
+            margin:20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -14,7 +30,7 @@
         </div>
         <div>
             <ul class="nav navbar-nav">
-                <li><a href="myhome.html">个人资料</a></li>
+                <li><a href="index.html">个人资料</a></li>
                 <li><a href="edu.html">教育背景</a></li>
                 <li><a href="tech.html">专业技能</a></li>
                 <li class="active"><a href="#">兴趣爱好</a></li>
@@ -22,7 +38,7 @@
         </div>
     </div>
 </nav>
-<div>
+<div class="container box">
     <p>
         打篮球
     </p>
